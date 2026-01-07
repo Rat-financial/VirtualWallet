@@ -1,0 +1,130 @@
+{
+    "users": {
+        "admin": {
+            "password": "admin",
+            "name": "系統管理員",
+            "balance": 0,
+            "role": "admin",
+            "user_type": true,
+            "kyc_status": false,
+            "kyc_info": null
+        },
+        "wer": {
+            "password": "wer",
+            "name": "www",
+            "balance": 902,
+            "role": "user",
+            "user_type": false,
+            "kyc_status": true,
+            "kyc_info": "a2e"
+        },
+        "test": {
+            "password": "test",
+            "name": "test",
+            "balance": 182,
+            "role": "user",
+            "user_type": false,
+            "kyc_status": true,
+            "kyc_info": "ddsds"
+        }
+    },
+    "transactions": [
+        {
+            "tx_id": "DEP-686475c4",
+            "sender": "System(Bank)",
+            "receiver": "wer",
+            "amount": 1000,
+            "time": "2026-01-06 16:12:52",
+            "status": true
+        },
+        {
+            "tx_id": "604b0efc-ae4",
+            "sender": "wer",
+            "receiver": "test",
+            "amount": 100,
+            "time": "2026-01-06 16:15:25",
+            "status": true
+        },
+        {
+            "tx_id": "56e8ae35-b3d",
+            "sender": "wer",
+            "receiver": "wer",
+            "amount": 100,
+            "time": "2026-01-06 16:35:57",
+            "status": true
+        },
+        {
+            "tx_id": "c6833109-dc5",
+            "sender": "wer",
+            "receiver": "wer",
+            "amount": 100,
+            "time": "2026-01-06 16:36:28",
+            "status": true
+        },
+        {
+            "tx_id": "f9b258f5-71e",
+            "sender": "test",
+            "receiver": "wer",
+            "amount": 1,
+            "time": "2026-01-06 16:51:54",
+            "status": true
+        },
+        {
+            "tx_id": "9d36a10a-56a",
+            "sender": "test",
+            "receiver": "wer",
+            "amount": 2,
+            "time": "2026-01-06 16:51:57",
+            "status": true
+        },
+        {
+            "tx_id": "231caa6f-24e",
+            "sender": "wer",
+            "receiver": "wer",
+            "amount": 1,
+            "time": "2026-01-06 16:52:46",
+            "status": true
+        },
+        {
+            "tx_id": "b6e78b4f-f79",
+            "sender": "wer",
+            "receiver": "test",
+            "amount": 1,
+            "time": "2026-01-06 16:53:22",
+            "status": true
+        },
+        {
+            "tx_id": "DEP-e0e15f0e",
+            "sender": "System(Bank)",
+            "receiver": "test",
+            "amount": 83,
+            "time": "2026-01-08 00:38:07",
+            "status": true
+        },
+        {
+            "tx_id": "DEP-f5236f18",
+            "sender": "System(Bank)",
+            "receiver": "test",
+            "amount": 1,
+            "time": "2026-01-08 00:38:08",
+            "status": true
+        }
+    ],
+    "pending_deposits": [
+        {
+            "req_id": "54c7e5a7",
+            "username": "test",
+            "amount": 1,
+            "time": "2026-01-07 00:22:38",
+            "status": "pending"
+        },
+        {
+            "req_id": "f664360d",
+            "username": "test",
+            "amount": 1,
+            "time": "2026-01-07 00:22:39",
+            "status": "pending"
+        }
+    ],
+    "announcements": []
+}
